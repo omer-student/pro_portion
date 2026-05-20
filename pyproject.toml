@@ -1,0 +1,16 @@
+[project]
+name = "pro-portion"
+version = "0.1.0"
+description = "A sleek, dark-themed metric recipe scaling utility."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "PySide6>=6.5.0",
+]
+
+[project.scripts]
+pro-portion = "main:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
