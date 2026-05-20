@@ -1,0 +1,23 @@
+{
+    "Chocolate Chip Cookies": {
+        "base_servings": 12,
+        "ingredients": [
+            {
+                "name": "Flour",
+                "amount_str": "190g"
+            },
+            {
+                "name": "Butter",
+                "amount_str": "115g"
+            },
+            {
+                "name": "Brown Sugar",
+                "amount_str": "150g"
+            },
+            {
+                "name": "Chocolate Chips",
+                "amount_str": "170g"
+            }
+        ]
+    }
+}

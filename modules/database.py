@@ -11,7 +11,7 @@ def load_database():
             with open(DATA_FILE, "r") as f:
                 data = json.load(f)
             
-            # Auto-Migration logic: safely converts old files if they exist
+            
             modified = False
             for recipe_name, recipe_data in data.items():
                 for ingredient in recipe_data.get("ingredients", []):
